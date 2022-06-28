@@ -22,7 +22,7 @@ char *_strdup(char *str)
 	strDup = malloc(sizeof(*str) * i);
 	if (strDup == NULL)
 		return (NULL);
-	j=0;
+	j = 0;
 	while (str[j] != '\0')
 	{
 		strDup[j] = str[j];
